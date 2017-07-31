@@ -47,12 +47,6 @@ bindkey '^X^e' edit-command-line
 stty stop undef
 stty start undef
 
-#ec2
-if [ -f ~/bt/system-scripts/pairing_stations/ec2env ]; then
-  export SYSTEM_SCRIPTS=~/bt/system-scripts
-  source ~/bt/system-scripts/pairing_stations/ec2env
-fi
-
 # C-d to exit
 exit_shell() {
   exit
@@ -147,7 +141,6 @@ export PATH=/usr/local/bin:$PATH
 export PATH=$HOME/.go/bin:$PATH
 export PATH="./node_modules/.bin":$PATH
 
-#eval "$(rbenv init -)"
-source $(brew --prefix nvm)/nvm.sh
-
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+source /usr/local/bin/virtualenvwrapper.sh
