@@ -1,103 +1,38 @@
-```
-                _________________
-               /                /|
-              /                / |
-             /________________/ /|
-          ###|      ____      |//|
-         #   |     /   /|     |/.|
-        #  __|___ /   /.|     |  |_______________
-       #  /      /   //||     |  /              /|                  ___
-      #  /      /___// ||     | /              / |                 / \ \
-      # /______/!   || ||_____|/              /  |                /   \ \
-      #| . . .  !   || ||                    /  _________________/     \ \
-      #|  . .   !   || //      ________     /  /\________________  {   /  }
-      /|   .    !   ||//~~~~~~/   0000/    /  / / ______________  {   /  /
-     / |        !   |'/      /9  0000/    /  / / /             / {   /  /
-    / #\________!___|/      /9  0000/    /  / / /_____________/___  /  /
-   / #     /_____\/        /9  0000/    /  / / /_  /\_____________\/  /
-  / #                      ``^^^^^^    /   \ \ . ./ / ____________   /
- +=#==================================/     \ \ ./ / /.  .  .  \ /  /
- |#                                   |      \ \/ / /___________/  /
- #                                    |_______\__/________________/
- |                                    |               |  |  / /       
- |                                    |               |  | / /       
- |            _       _               |               |  |  /
- |         __| | ___ | |_             |       ________|  | / ________            
- |        / _` |/ _ \| __|            |      /_______/    \_________/\           
- |       | (_| | (_) | |_             |     /        /  /           \ )           
- |        \__,_|\___/ \__|            |    /OO^^^^^^/  / /^^^^^^^^^OO\) 
- |         __ _ _                     |            /  / /                        
- |        / _(_) | ___ ___            |           /  / /                         
- |       | |_| | |/ _ | __|           |          /___\/                          
- |       |  _| | |  __|__ \           |           oo                             
- |       |_| |_|_|\___|___/           |           
- |                                    |                 
- |____________________________________|
- ```
-
+## Setup
+1. Create symbolic links
+1. `brew install zsh-syntax-highlighting`
 
 ## Plugins
 
 *General*
 
-* [ack.vim](https://github.com/mileszs/ack.vim)
 * [bufexplorer](http://www.vim.org/scripts/script.php?script_id=42)
-* [camelcasemotion](https://github.com/bkad/CamelCaseMotion)
 * [command-t](https://github.com/wincent/Command-T)
-* [current-func-info](https://github.com/tyru/current-func-info.vim)
 * [nerdtree](https://github.com/scrooloose/nerdtree)
-* [notes.vim](https://github.com/xolox/vim-notes)
-* [repeat.vim](https://github.com/tpope/vim-repeat)
 * [ruby_focused_unit_test_vim](https://github.com/drewolson/ruby_focused_unit_test_vim)
-* [snipmate.vim](https://github.com/msanders/snipmate.vim)
 * [syntastic](https://github.com/scrooloose/syntastic)
-* [tagbar](https://github.com/majutsushi/tagbar)
 * [tcomment](https://github.com/tomtom/tcomment_vim)
-* [textshifters](https://github.com/benmills/dotfiles/tree/master/vim/bundle/textshifters)
-* [tslime.vim](https://github.com/kikijump/tslime.vim)
-* [vim-endwise](https://github.com/tpope/vim-endwise)
 * [vim-fugitive](https://github.com/tpope/vim-fugitive)
-* [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
-* [vim-powerline](https://github.com/Lokaltog/vim-powerline)
 * [vim-surround](https://github.com/tpope/vim-surround)
 
 *Syntax*
 
-* [io.vim](https://github.com/benmills/dotfiles/tree/master/vim/bundle/io.vim)
-* [vim-scala](https://github.com/derekwyatt/vim-scala)
-* [vim-coffee-script](https://github.com/kchmck/vim-coffee-script)
 * [vim-javascript](https://github.com/pangloss/vim-javascript)
-* [vim-markdown](https://github.com/tpope/vim-markdown)
-* [vim-rails](https://github.com/tpope/vim-rails)
-* [vim-ruby](https://github.com/vim-ruby/vim-ruby)
-* [vimclojure](http://www.vim.org/scripts/script.php?script_id=2501)
-* [vimerl](https://github.com/oscarh/vimerl)
 
 ##   Shortcuts
 ```
 
 navigation
-ak   - Runs the `Ack` command
-bb   - Go to the last buffer
 be   - Starts BufferExplorer
-fw    - Open new vertical split, focus on it and start Commant-T
-fb   - Start Command-T buffer mode
-C-f  - Starts Command-T
 nt   - Starts NERDTree
 nf   - Finds current file in NERDTree
 
-nh   - Clear search highlight
 cc   - Comment or uncomment current line(s)
-vis  - Sources your vimrc file
 rt   - Rebuilds tags
-rf   - Run ruby focused unit test
-rc   - Runs ruby focused test context
-rb   - Runs current ruby test file
-rl   - Runs last ruby test/context/file
-fe   - enables folding
-fd   - disables folding
-tb   - Starts tagbar
-ce   - Compiles erlang file
+rf   - Run focused unit test
+rc   - Runs focused test context
+rb   - Runs current test file
+rl   - Runs last test/context/file
 ```
 
 
