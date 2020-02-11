@@ -146,8 +146,6 @@ export PATH="./node_modules/.bin":$PATH
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-source ~/Workspace/invoke/completion/zsh
-
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
@@ -158,5 +156,5 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
-export PYTHONDONTWRITEBYTECODE="true"
+export PYTHONDONTWRITEBYTECODE=1
 pyenv virtualenvwrapper
