@@ -3,14 +3,14 @@
 [alias]
   co = checkout
   st = status
-	sed = !git grep -l $1 | xargs sed -i "" -e "s/$1/$2/g" && echo > /dev/null
-  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short 
-  l = lol
-[github]
-  user = benmills
-  token = 7354f573f43906c1164ec123e5d0ed1c
-[user]
-	name = benmills
-	email = ben@benmills.org
+  sed = !git grep -l $1 | xargs sed -i "" -e "s/$1/$2/g" && echo > /dev/null
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  fpush = push --force-with-lease
+  recent = branch -v --sort=committerdate
+  fixup = commit --amend --no-edit
+  staged = diff --staged
 [push]
-	default = matching
+  default = simple
+[user]
+  name = tyewang
+  email = tye@outlook.com

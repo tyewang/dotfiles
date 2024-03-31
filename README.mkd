@@ -34,7 +34,3 @@ rc   - Runs focused test context
 rb   - Runs current test file
 rl   - Runs last test/context/file
 ```
-
-
-
-
